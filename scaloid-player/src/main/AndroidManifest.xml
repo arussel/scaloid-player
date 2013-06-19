@@ -1,0 +1,17 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.scaloidplayer">
+  <application android:icon="@drawable/android"
+               android:label="Hello"
+               android:debuggable="true">
+
+    <activity android:label="Scaloid Player" android:name=".MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+  </application>
+
+  <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+  <uses-sdk android:minSdkVersion="16"/>
+</manifest>
